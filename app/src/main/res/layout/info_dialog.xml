@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@mipmap/logo" />
+
+      <!--  <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Terms and Conditions :"
+            android:textSize="25sp" />-->
+<!--
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#000" />-->
+
+        <TextView
+            android:id="@+id/tv_terms_and_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:paddingTop="8dp"
+            android:text="Dear Patient,\n\nBy using this app you agree that your profile details would be transfered to your Doctor's clinic,so that they would be able to use your email-Id or telephone to send you remainder by email or by sms.Or contact you in connection to your booked appointment.\n\nProfile details will only will be transfered to the clinic where you scan the QR-code \n "
+            android:textAlignment="textStart"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="8dp"
+            android:text="Betty24 Team"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="8dp"
+            android:text="Betty24-A service trusted by your Doctors"
+            android:textAlignment="textStart"
+            android:textSize="18sp" />
+<!--
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:checked="true"
+            android:text="I have read and accept the Terms &amp; Conditions"
+            android:textColor="#555"
+            android:textSize="15sp" />-->
+    </LinearLayout>
+</LinearLayout>
